@@ -1,0 +1,16 @@
+
+
+  {
+    "manifest_version": 3,
+    "name": "Reel Finder",
+    "version": "1.0",
+    "action": {
+      "default_icon": "favicon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+    
+  }
+  

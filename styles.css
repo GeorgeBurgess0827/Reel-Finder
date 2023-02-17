@@ -1,0 +1,92 @@
+html {
+    height: 600px;
+    width: 400px;
+}
+
+body {
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+article:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+    align-items: center;
+    justify-content: center;
+}
+
+a.trailer {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+a.trailer:hover {
+    background-color: #2980b9;
+}
+
+/* CSS */
+.button-13,
+a.trailer {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 80%;
+}
+
+a.trailer {
+    width: 40%;
+}
+
+.button-13:hover,
+a.trailer:hover {
+    background-color: #f7fafa;
+}
+
+.button-13:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
+
+.search-button{
+    color: black;
+}
